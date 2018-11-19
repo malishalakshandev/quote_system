@@ -29,7 +29,7 @@
             {{Session::get('success')}}
         </section>
     @endif
-
+    <div class="malisha"></div>
     <section class="quotes">
         <h1>Latest Quotes</h1>
         @for($i = 0; $i < count($quotes); $i++)
